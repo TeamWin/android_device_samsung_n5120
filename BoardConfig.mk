@@ -25,7 +25,7 @@ LOCAL_PATH := device/samsung/n5120
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
 # Inline kernel building
-TARGET_KERNEL_CONFIG := lineageos_n5120_defconfig
+TARGET_KERNEL_CONFIG := twrp_n51xx_defconfig
 
 # GPS
 BOARD_GPS_SET_PRIVACY := true
